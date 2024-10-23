@@ -53,6 +53,7 @@ def call_model(state: MessagesState, config: RunnableConfig) -> Dict[str, BaseMe
     messages_with_system = [{"type": "system", "content": system_message}] + state[
         "messages"
     ]
+    # Forward the RunnableConfig object to ensure the agent is capable of streaming the response.
     response = llm.invoke(messages_with_system, config)
     return {"messages": response}
 
