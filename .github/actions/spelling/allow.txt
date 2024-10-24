@@ -216,6 +216,7 @@ NVIDIA
 Nagasu
 Niitsuma
 Nintendo
+noabe
 Nominatim
 Noogler
 ODb
@@ -519,6 +520,7 @@ getparent
 gfile
 gidiyor
 github
+gitleaks
 gke
 glowin
 gms
